@@ -7,9 +7,10 @@
 # Импорт графических библиотек
 from termcolor import colored as col, cprint
 from sys import exit
+from os import system 
 
 def clear():
-    pass #os.system('cls') # Функция очистки экрана
+    system('cls') # Функция очистки экрана
 
 # Функция первого уровня интерфейса (ответы последующих уровней конкатенируются с ответом этого уровня)
 def main_interface(current_task_= ""):

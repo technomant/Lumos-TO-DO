@@ -13,7 +13,7 @@ try:
 
     
     #Абсолютный путь к папке скрипта
-    own_path = path.dirname(path.realpath(__file__))
+    own_path = path.dirname(executable)
     #Путь к папке data
     data_path = path.join(own_path, "data")
     #Создание папки для хранения данных
