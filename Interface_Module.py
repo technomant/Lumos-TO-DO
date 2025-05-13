@@ -3,6 +3,7 @@
 
 # Добавить функцию ввода пароля со * вместо символов и двойную проверку на корректность
 # Переписать функции ввода и добавить авто локализацию на английский
+# Использовать консольный библиотеки (colorama, termcolor, art, simple-term-menu, tabulate, Rich, alive-progress)
 
 # Импорт графических библиотек
 from termcolor import colored as col, cprint
