@@ -7,7 +7,6 @@
 # Импорт графических библиотек
 from termcolor import colored as col, cprint
 from sys import exit
-import os
 
 def clear():
     pass #os.system('cls') # Функция очистки экрана
@@ -51,7 +50,7 @@ def main_interface(current_task_= ""):
         elif inp == "5":
             return inp
         elif inp == "0":
-            print("До свидания!")
+            cprint("\nДо свидания!", attrs=["bold"])
             input("Press Enter to continue...")
             exit()
         else:
