@@ -12,8 +12,9 @@ try:
 
 
     
-    #Абсолютный путь к папке скрипта
-    own_path = path.dirname(executable)
+    #Абсолютный путь к папке скрипта 
+    #own_path = path.dirname(executable) # (для компиляции в exe)
+    own_path = path.dirname(path.realpath(__file__)) # (для запуска из IDE)
     #Путь к папке data
     data_path = path.join(own_path, "data")
     #Создание папки для хранения данных
